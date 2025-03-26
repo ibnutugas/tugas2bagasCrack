@@ -1,0 +1,273 @@
+.ulpertama {
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    background-color: whitesmoke;
+    padding: 11px;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+
+.ulpertama li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ulpertama li a:hover {
+    color: rgb(147, 146, 146);
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sectionawal p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.sectionawal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: white;
+    text-align: center;
+    background: 
+        url(https://i.pinimg.com/736x/3c/ee/0c/3cee0c6cb2428da968d12ec82fcd6f9f.jpg) left center / 50% 100% no-repeat,
+        url(https://i.pinimg.com/736x/6b/9e/d4/6b9ed4197da401dc14b8dcfb5f8e2ce8.jpg) right center / 50% 100% no-repeat;
+    }
+
+.bagiansepakbola {
+    text-align: center;
+    }
+    
+.imgsepakbola {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    }
+    
+.imgsepakbola img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+    
+.textsepakbola {
+    margin-top: 20px;
+}
+    
+.textsepakbola p {
+    font-size: 18px;
+    color: #555;
+}
+    
+.textsepakbola h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.textsepakbola video{
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+}
+    
+.lspks {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    }
+    
+.lspks:hover {
+    background-color: gray;
+    }
+
+.olahragalain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    }
+    
+.olahragalain h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+    
+.untukolahragalain {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+    }
+    
+.untukolahragalain div {
+    position: relative;
+    width: 30%;
+    }
+    
+.untukolahragalain video {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+    
+.label {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.komendansamping {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 95%;
+}
+
+.komentar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+aside {
+    width: 25%;
+    background: #f4f4f4;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+    
+
+.sidebar {
+    border: 2px solid rgb(0, 0, 0);
+    width: 20%; 
+    background-color: whitesmoke;
+    padding: 0px;
+    font-size: 20px;
+    gap: 20px;
+    padding: 11px;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    }
+
+.sidebar li a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-family: 'Oswald';
+    }
+
+.sidebar h3{
+    width: 100%;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 0;
+    background-color: lightgray;
+    font-family: 'Oswald';
+    box-sizing: border-box;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.sidebar li{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover{
+    color: white;
+    background-color: rgba(11, 11, 11, 0.11);
+    width: 100%;
+}
+
+.perkenalanolahraga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.editfooter {
+    flex: 1;
+    max-width: 200px;
+}
+
+.footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
